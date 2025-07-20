@@ -7,17 +7,17 @@ const Header = () => {
             <div className="h-full flex justify-between w-[100%] left-0 mx-2.5">
                 <div className="flex justify-between w-max gap-8 items-center h-full">
                     <a href="#about_me">
-                        <button className="cursor-pointer hover:bg-red-500 hover:text-black border-2 transition-colors duration-300 border-red-500 px-2 py-1">About Me</button>
+                        <button className="cursor-pointer py-1">About Me</button>
                     </a>
                     <a href="#projects">
-                        <button className="cursor-pointer hover:bg-red-500 hover:text-black border-2 transition-colors duration-300 border-red-500 px-2 py-1">Projects</button>
+                        <button className="cursor-pointer py-1">Projects</button>
                     </a>
 
                 </div>
                 <div className="flex justify-between w-max gap-8 items-center h-full">
-                    <button className="cursor-pointer hover:bg-red-500 hover:text-black border-2 transition-colors duration-300 border-red-500 px-2 py-1">Resume</button>
+                    <button className="cursor-pointer py-1">Resume</button>
                     <a href="#contact_me">
-                        <button className="cursor-pointer hover:bg-red-500 hover:text-black border-2 transition-colors duration-300 border-red-500 px-2 py-1">Contact Me</button>
+                        <button className="cursor-pointer py-1">Contact Me</button>
                     </a>
                 </div>
             </div>
