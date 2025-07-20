@@ -1,10 +1,10 @@
 import React from 'react';
-import ProjectCard from '@/app/components/ProjectCard';
+// import ProjectCard from '@/app/components/ProjectCard';
 
 
 const AboutMe = () => {
-    const [data, setData] = React.useState<any[]>([]);
-    const [loading, setLoading] = React.useState(true);
+    // const [data, setData] = React.useState<any[]>([]);
+    // const [loading, setLoading] = React.useState(true);
 
     // React.useEffect(() => {
     //     fetch('https://fakestoreapi.com/products')
