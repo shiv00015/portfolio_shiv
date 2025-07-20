@@ -1,5 +1,3 @@
-import Reat from 'react';
-
 type pojectcardProps = {
     id: number;
     image: string;
