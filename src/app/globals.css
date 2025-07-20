@@ -24,6 +24,21 @@ html {
   scroll-behavior: smooth;
 }
 
+@layer utilities {
+  @keyframes grow-x {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+
+  .animate-grow-x {
+    animation: grow-x 0.6s ease-out forwards;
+  }
+}
+
 body {
   background: var(--primary);
   color: var(--foreground);
