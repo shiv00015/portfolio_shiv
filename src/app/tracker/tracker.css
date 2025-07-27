@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.menu-btn {
+    @apply pl-8 py-2 text-blue-400 text-start text-sm cursor-pointer w-full;
+}
+
+.menu-btn:hover {
+    @apply bg-purple-900/50;
+}
+
+.glass-card {
+    @apply relative w-full p-6 rounded-2xl bg-gray-500/20 backdrop-blur-lg shadow-xl overflow-hidden;
+}
