@@ -47,8 +47,7 @@ export default function TaskStatusPie() {
             },
         },
         backgroundColor: 'transparent', // this is ignored by ChartJS itself
-    } as {};
-
+    };
 
     return (
         <div className="rounded-xl w-full h-full">
