@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import ProjectCard from './ProjectCard';
+// import ProjectCard from './ProjectCard';
 import Link from 'next/link';
 
 const Projects = () => {
