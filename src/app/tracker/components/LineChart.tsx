@@ -69,7 +69,7 @@ const options = {
             beginAtZero: true,
         },
     },
-} as any;
+} as {};
 
 
 function LineChart() {

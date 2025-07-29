@@ -46,7 +46,7 @@ export default function TaskStatusPie() {
             },
         },
         backgroundColor: 'transparent', // this is ignored by ChartJS itself
-    } as any;
+    } as {};
 
 
     return (
