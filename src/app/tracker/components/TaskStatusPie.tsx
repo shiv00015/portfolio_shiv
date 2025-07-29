@@ -2,11 +2,12 @@
 
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import type { ChartOptions, ChartData } from 'chart.js';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function TaskStatusPie() {
-    const data = {
+    const data: ChartData<'pie'> = {
         labels: ['Completed', 'In Progress', 'Pending'],
         datasets: [
             {
@@ -19,7 +20,7 @@ export default function TaskStatusPie() {
         ],
     };
 
-    const options = {
+    const options: ChartOptions<'pie'> = {
         responsive: true,
         maintainAspectRatio: false, // for flexibility
         plugins: {

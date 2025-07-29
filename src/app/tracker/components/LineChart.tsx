@@ -10,11 +10,12 @@ import {
     Tooltip,
     Legend,
 } from 'chart.js';
+import type { ChartOptions, ChartData } from 'chart.js';
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Tooltip, Legend);
 
 // ✅ Chart Data
-const data = {
+const data: ChartData<'line'> = {
     labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
     datasets: [
         {
@@ -31,7 +32,7 @@ const data = {
 };
 
 // ✅ Chart Options
-const options = {
+const options: ChartOptions<'line'> = {
     responsive: true,
     plugins: {
         legend: {
@@ -69,7 +70,7 @@ const options = {
             beginAtZero: true,
         },
     },
-} as {};
+};
 
 
 function LineChart() {
